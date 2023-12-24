@@ -1,5 +1,12 @@
-import Image from "next/image";
+import HeroSection from "./HeroSection";
 
 export default function Home() {
-  return <h1 className="text-green-500">Hello Portfolio</h1>;
+  return (
+    <>
+      <h2>Home page</h2>
+      <div className="container p-4 mx-auto">
+        <HeroSection />
+      </div>
+    </>
+  );
 }
