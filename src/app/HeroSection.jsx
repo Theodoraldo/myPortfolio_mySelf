@@ -19,11 +19,11 @@ export default function HeroSection() {
                 2000,
                 "expert in problem-solving",
                 3000,
-                "expert in database management",
-                4000,
                 "skilled in database management",
+                4000,
+                "version control genius",
                 5000,
-                "version control expert",
+                "UX/UI designer",
                 () => {
                   console.log("Sequence completed");
                 },
